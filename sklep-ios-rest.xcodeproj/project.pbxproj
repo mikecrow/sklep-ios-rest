@@ -15,6 +15,7 @@
 		16D837E425E5BC020020A8EC /* sklep_ios_rest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16D837E225E5BC020020A8EC /* sklep_ios_rest.xcdatamodeld */; };
 		16D837EF25E5BC020020A8EC /* sklep_ios_restTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D837EE25E5BC020020A8EC /* sklep_ios_restTests.swift */; };
 		16D837FA25E5BC020020A8EC /* sklep_ios_restUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D837F925E5BC020020A8EC /* sklep_ios_restUITests.swift */; };
+		16D8380B25E5C0FB0020A8EC /* ProduktView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D8380A25E5C0FB0020A8EC /* ProduktView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		16D837F525E5BC020020A8EC /* sklep-ios-restUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sklep-ios-restUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16D837F925E5BC020020A8EC /* sklep_ios_restUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sklep_ios_restUITests.swift; sourceTree = "<group>"; };
 		16D837FB25E5BC020020A8EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16D8380A25E5C0FB0020A8EC /* ProduktView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProduktView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				16D837E525E5BC020020A8EC /* Info.plist */,
 				16D837E225E5BC020020A8EC /* sklep_ios_rest.xcdatamodeld */,
 				16D837DD25E5BC020020A8EC /* Preview Content */,
+				16D8380A25E5C0FB0020A8EC /* ProduktView.swift */,
 			);
 			path = "sklep-ios-rest";
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16D8380B25E5C0FB0020A8EC /* ProduktView.swift in Sources */,
 				16D837E125E5BC020020A8EC /* Persistence.swift in Sources */,
 				16D837E425E5BC020020A8EC /* sklep_ios_rest.xcdatamodeld in Sources */,
 				16D837DA25E5BBFE0020A8EC /* ContentView.swift in Sources */,
