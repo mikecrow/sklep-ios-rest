@@ -27,7 +27,7 @@ struct sklep_ios_restApp: App {
 extension sklep_ios_restApp {
     func loadFromAPI() {
         let context = persistenceController.container.viewContext
-        let serverURL = "https://39496e16e6f4.ngrok.io/kategoria"
+        let serverURL = "https://cecc8317e2a5.ngrok.io/kategoria"
         
         let url = URL(string: serverURL)
         let request = URLRequest (url: url!)
