@@ -7,9 +7,32 @@
 
 import SwiftUI
 
+
+
 struct LogowanieView: View {
+    @State var login: String = ""
+    @State var haslo: String = ""
+    
     var body: some View {
-        Text("Logowanie nie dziala")
+        VStack(alignment: .center) {
+            Text("Login:")
+                .font(.callout)
+                .bold()
+            TextField("login...", text: $login)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+            Text("Haslo:")
+                .font(.callout)
+                .bold()
+            SecureField("haslo...", text: $haslo)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+            Button {
+                print("loguje")
+            } label: {
+                Text("Zaloguj")
+            }
+            
+            
+        }.padding()
     }
 }
 

@@ -19,6 +19,7 @@ extension ProduktView {
         request.predicate = NSPredicate(format: "kategoria == %@", self.kategoria)
         
         let result = try! self.viewContext.fetch(request)
+        
     }
 }
 
