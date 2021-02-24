@@ -7,12 +7,12 @@
     <entity name="Produkt" representedClassName="Produkt" syncable="YES" codeGenerationType="class">
         <attribute name="desc" optional="YES" attributeType="String"/>
         <attribute name="image_url" optional="YES" attributeType="String"/>
+        <attribute name="kategoria_id" optional="YES" attributeType="String"/>
         <attribute name="quantitiy" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="title" optional="YES" attributeType="String"/>
-        <relationship name="kategoria" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Kategoria"/>
     </entity>
     <elements>
-        <element name="Produkt" positionX="-63" positionY="-18" width="128" height="104"/>
-        <element name="Kategoria" positionX="-63" positionY="9" width="128" height="59"/>
+        <element name="Produkt" positionX="-63" positionY="-18" width="128" height="118"/>
+        <element name="Kategoria" positionX="302.77783203125" positionY="178.111572265625" width="128" height="59"/>
     </elements>
 </model>

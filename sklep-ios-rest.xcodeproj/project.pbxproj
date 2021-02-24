@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		16D837D825E5BBFE0020A8EC /* sklep_ios_restApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D837D725E5BBFE0020A8EC /* sklep_ios_restApp.swift */; };
-		16D837DA25E5BBFE0020A8EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D837D925E5BBFE0020A8EC /* ContentView.swift */; };
 		16D837DC25E5BC020020A8EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16D837DB25E5BC020020A8EC /* Assets.xcassets */; };
 		16D837DF25E5BC020020A8EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16D837DE25E5BC020020A8EC /* Preview Assets.xcassets */; };
 		16D837E125E5BC020020A8EC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D837E025E5BC020020A8EC /* Persistence.swift */; };
@@ -16,6 +15,11 @@
 		16D837EF25E5BC020020A8EC /* sklep_ios_restTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D837EE25E5BC020020A8EC /* sklep_ios_restTests.swift */; };
 		16D837FA25E5BC020020A8EC /* sklep_ios_restUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D837F925E5BC020020A8EC /* sklep_ios_restUITests.swift */; };
 		16D8380B25E5C0FB0020A8EC /* ProduktView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D8380A25E5C0FB0020A8EC /* ProduktView.swift */; };
+		16D8381325E60A170020A8EC /* KategoriaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D8381225E60A170020A8EC /* KategoriaView.swift */; };
+		16D8381825E60B1D0020A8EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D8381725E60B1D0020A8EC /* ContentView.swift */; };
+		16D8382B25E60DEB0020A8EC /* KoszykView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D8382A25E60DEB0020A8EC /* KoszykView.swift */; };
+		16D8383025E610EB0020A8EC /* MapaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D8382F25E610EB0020A8EC /* MapaView.swift */; };
+		16D8383525E610FF0020A8EC /* LogowanieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D8383425E610FF0020A8EC /* LogowanieView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,6 @@
 /* Begin PBXFileReference section */
 		16D837D425E5BBFE0020A8EC /* sklep-ios-rest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sklep-ios-rest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16D837D725E5BBFE0020A8EC /* sklep_ios_restApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sklep_ios_restApp.swift; sourceTree = "<group>"; };
-		16D837D925E5BBFE0020A8EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		16D837DB25E5BC020020A8EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16D837DE25E5BC020020A8EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		16D837E025E5BC020020A8EC /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -51,6 +54,11 @@
 		16D837F925E5BC020020A8EC /* sklep_ios_restUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sklep_ios_restUITests.swift; sourceTree = "<group>"; };
 		16D837FB25E5BC020020A8EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16D8380A25E5C0FB0020A8EC /* ProduktView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProduktView.swift; sourceTree = "<group>"; };
+		16D8381225E60A170020A8EC /* KategoriaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategoriaView.swift; sourceTree = "<group>"; };
+		16D8381725E60B1D0020A8EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		16D8382A25E60DEB0020A8EC /* KoszykView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoszykView.swift; sourceTree = "<group>"; };
+		16D8382F25E610EB0020A8EC /* MapaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaView.swift; sourceTree = "<group>"; };
+		16D8383425E610FF0020A8EC /* LogowanieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogowanieView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +109,18 @@
 		16D837D625E5BBFE0020A8EC /* sklep-ios-rest */ = {
 			isa = PBXGroup;
 			children = (
+				16D8381725E60B1D0020A8EC /* ContentView.swift */,
 				16D837D725E5BBFE0020A8EC /* sklep_ios_restApp.swift */,
-				16D837D925E5BBFE0020A8EC /* ContentView.swift */,
 				16D837DB25E5BC020020A8EC /* Assets.xcassets */,
 				16D837E025E5BC020020A8EC /* Persistence.swift */,
 				16D837E525E5BC020020A8EC /* Info.plist */,
 				16D837E225E5BC020020A8EC /* sklep_ios_rest.xcdatamodeld */,
 				16D837DD25E5BC020020A8EC /* Preview Content */,
 				16D8380A25E5C0FB0020A8EC /* ProduktView.swift */,
+				16D8381225E60A170020A8EC /* KategoriaView.swift */,
+				16D8382A25E60DEB0020A8EC /* KoszykView.swift */,
+				16D8382F25E610EB0020A8EC /* MapaView.swift */,
+				16D8383425E610FF0020A8EC /* LogowanieView.swift */,
 			);
 			path = "sklep-ios-rest";
 			sourceTree = "<group>";
@@ -268,10 +280,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16D8381325E60A170020A8EC /* KategoriaView.swift in Sources */,
 				16D8380B25E5C0FB0020A8EC /* ProduktView.swift in Sources */,
+				16D8381825E60B1D0020A8EC /* ContentView.swift in Sources */,
+				16D8383025E610EB0020A8EC /* MapaView.swift in Sources */,
 				16D837E125E5BC020020A8EC /* Persistence.swift in Sources */,
+				16D8382B25E60DEB0020A8EC /* KoszykView.swift in Sources */,
 				16D837E425E5BC020020A8EC /* sklep_ios_rest.xcdatamodeld in Sources */,
-				16D837DA25E5BBFE0020A8EC /* ContentView.swift in Sources */,
+				16D8383525E610FF0020A8EC /* LogowanieView.swift in Sources */,
 				16D837D825E5BBFE0020A8EC /* sklep_ios_restApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
